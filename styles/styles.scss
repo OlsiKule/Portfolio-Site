@@ -202,11 +202,21 @@ section{
         p{
             margin: 1.5rem 0;
             line-height: 2rem;
-
+            
         }
     }
 }
 
+/*****************About Content**********************/
+.about-container{
+    color: var(--color-grey-1);
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+    // play around with the padding or create another div outside the about container
+    
+}
 
 
 
@@ -254,6 +264,31 @@ section{
             background-color: var(--color-secondary);
             transform: translateX(0);
             transition: all 0.9s ease-out;
+        }
+    }
+}
+
+.main-title{
+    text-align: center;
+    color: var(--color-grey-1);
+    h2{
+        position: relative;
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: 700;
+        span{
+            color: var(--color-secondary);
+        }
+        .bg-text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: var(--color-grey-5);
+            transition: all 0.4s ease-in-out;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+            font-weight: 800;
+            font-size: 5.3rem;  
         }
     }
 }
