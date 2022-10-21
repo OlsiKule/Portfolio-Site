@@ -311,30 +311,41 @@ section{
 
 /*****************Skills**********************/
 .skills{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    // grid gap is obsolete
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
     margin-top: 3rem;
     .skill{
-        position: relative;
-        background-color: var(--color-grey-5);
-        border-radius: 5px;
-        box-shadow: 1px 1px 20px rgba(0,0,0,.1);
-        transition: all .4s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.85;
+        transition: all 0.5s ease-in-out;
         &:hover{
-            box-shadow: 1px 1px 20px rgba(0,0,0,.3);
+            transform: scale(1.1);
+            color: var(--color-secondary);
             transform: translateY(-5px);
-            transition: all .4s ease-in-out;
-            img {
-                filter: grayscale(0);
-                transform: scale(1.1);
-                box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
-            }
-        }      
+            .iconName {
+                opacity: 1;
+                transition: all 0.5s ease-in-out;
+              }
+        } 
+        i {
+            font-size: 6rem;
+            margin: 1.7rem 1.4rem 0;
+            transition: all 0.5s ease-in-out;
+        }
+        .iconName{
+            opacity: 0;
+            color: var(--color-secondary);
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+        }  
     }
 }
-
 
 
 
