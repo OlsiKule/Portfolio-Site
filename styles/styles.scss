@@ -38,7 +38,7 @@ body{
     background-color: var(--color-primary);
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: var(---color-white);
+    color: var(--color-white);
     transition: all 0.4s ease-in-out;
 }
 a{
@@ -271,7 +271,7 @@ section{
             transition: all 0.9s ease-in-out;
             h3{
                 font-size: 1.5rem;
-                color: var(--color-white);
+                // color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
             .icons{
@@ -308,6 +308,34 @@ section{
     opacity: 1;
     transform: scale(1);
 }
+
+/*****************Skills**********************/
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    // grid gap is obsolete
+    margin-top: 3rem;
+    .skill{
+        position: relative;
+        background-color: var(--color-grey-5);
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+        transition: all .4s ease-in-out;
+        &:hover{
+            box-shadow: 1px 1px 20px rgba(0,0,0,.3);
+            transform: translateY(-5px);
+            transition: all .4s ease-in-out;
+            img {
+                filter: grayscale(0);
+                transform: scale(1.1);
+                box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
+            }
+        }      
+    }
+}
+
+
 
 
 /*****************Independent Content**********************/
