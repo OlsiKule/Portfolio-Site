@@ -201,8 +201,7 @@ section{
         }
         p{
             margin: 1.5rem 0;
-            line-height: 2rem;
-            
+            line-height: 2rem;            
         }
     }
 }
@@ -215,10 +214,100 @@ section{
     padding-top: 2.5rem;
     padding-bottom: 4rem;
     // play around with the padding or create another div outside the about container
+    .about{
+        // padding: 2rem;
+        p{
+            line-height: 2rem;
+            // padding: 1rem;
+            color: var(--color-grey-1);
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+
+    }
     
 }
 
+/*****************projects**********************/
+.proj-text{
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--color-grey-1);
+}
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    // color: var(--color-grey-1);
+    .project-item{
+        position: relative;
+        border-radius: 15px;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .hover-item{
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.9s ease-in-out;
+            h3{
+                font-size: 1.5rem;
+                color: var(--color-white);
+                margin-bottom: 1.5rem;
+            }
+            .icons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .icon{
+                    background-color: var(--color-primary);
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 1rem;
+                    cursor: pointer;
+                    transition: all 0.9s ease-in-out;
+                    i{
+                        font-size: 1.5rem;
+                        color: var(--color-white);
+                        margin: 0 1rem;
+                    }
+                    &:hover{
+                        background-color: var(--color-white);
+                        i{color: var(--color-primary);}
+                    }
+                }
+            }
+        }
+    }
+}
+
+.project-item:hover .hover-item{
+    opacity: 1;
+    transform: scale(1);
+}
 
 
 /*****************Independent Content**********************/
