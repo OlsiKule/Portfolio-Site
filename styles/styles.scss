@@ -50,9 +50,12 @@ a{
 }
 
 header{
-    height: 100vh;
+    min-height: 100vh;
     color: var(--color-white);
     overflow: hidden;
+    // @media screen and (max-width:600px) {
+    //     min-height: 600px;
+    // }
 }
 
 section{
@@ -453,6 +456,8 @@ section{
 .btn-con{
     display: flex;
     align-self: flex-start;
+    padding-top: 2.5rem;
+    
 }
 .main-btn{
     border-radius: 30px;
@@ -520,3 +525,6 @@ section{
         }
     }
 }
+
+
+@import "./partials/media"
