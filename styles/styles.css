@@ -767,7 +767,12 @@ section {
     width: 100%;
     background-color: var(--color-grey-5);
   }
-  .controls .control {
+  .controls ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .controls ul .control {
     margin: 0.5rem 1rem;
   }
   .section {
