@@ -599,9 +599,11 @@ section {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  background: transparent;
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  font-size: 1.1rem;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);

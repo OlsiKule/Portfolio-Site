@@ -469,8 +469,10 @@ section{
     display: flex;
     align-items: center;
     overflow: hidden;
+    background: transparent;
     .btn-text{
         padding: 0 2rem;
+        font-size: 1.1rem;
     }
     .btn-icon{
         background-color: var(--color-secondary);
