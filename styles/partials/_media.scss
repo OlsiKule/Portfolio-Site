@@ -184,6 +184,12 @@
     .sec3{
         padding: 2.5rem 2.5rem;
     }
+    .sec4 {
+        padding: 4rem 6rem;
+      }
+    .sec5, .sec2 {
+        padding: 3rem 4rem 8rem;
+      }
     
     .projects{
         grid-template-columns: 1fr;
@@ -192,9 +198,7 @@
         // padding-bottom: 6rem;
     }
     
-    .sec4 {
-        padding: 4rem 6rem;
-      }
+
     .skills{
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
