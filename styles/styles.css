@@ -366,6 +366,10 @@ section {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
+.projects .project-item .hover-item p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
 .projects .project-item .hover-item .icons {
   display: -webkit-box;
   display: -ms-flexbox;
