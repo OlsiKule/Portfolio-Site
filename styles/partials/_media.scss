@@ -120,9 +120,9 @@
         // margin: 1.5rem;
         }
 
-        .skills .skill i{
-            font-size: 4rem;
-        }
+    .skills .skill i{
+        font-size: 5rem;
+    }
     
     .contact-content-con .right-contact .info{
     flex-direction: column;
@@ -178,7 +178,9 @@
             }
         }
     }
-    
+    .sec2{
+        padding: 2rem 6rem;
+    }
     .sec3{
         padding: 2.5rem 2.5rem;
     }
@@ -197,7 +199,7 @@
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
     .skill i{
-        font-size: 5rem;
+        font-size: 4rem;
     }
    }
 
@@ -234,9 +236,16 @@
 }
 
 @media (max-width: 480px){
+    .sec2{
+        padding: 2rem 4rem;
+    }
     .sec3 {
         padding: 2rem 2rem;
       }
+    .sec4 {
+        padding: 2rem 2rem;
+      }
+
       .projects{
         grid-template-columns: 1fr;
         margin: 3rem auto;
@@ -271,6 +280,14 @@
             }       
         }
     }
+    .skills{
+        // grid-template-columns: 1fr;
+        // padding-bottom: 6rem;
+        .skill i{
+            font-size: 4rem;
+        }
+       }
+   
 }
 
 

@@ -239,12 +239,10 @@ section{
 /*****************About Content**********************/
 .about-container{
     color: var(--color-grey-1);
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
     padding-top: 2.5rem;
     padding-bottom: 4rem;
     margin-top: 3rem;
-    // play around with the padding or create another div outside the about container
+
     .about{
         // padding: 2rem;
         p{

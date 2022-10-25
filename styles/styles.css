@@ -779,7 +779,7 @@ section {
     margin: 3rem auto;
   }
   .skills .skill i {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .contact-content-con .right-contact .info {
     -webkit-box-orient: vertical;
@@ -833,6 +833,9 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
+  .sec2 {
+    padding: 2rem 6rem;
+  }
   .sec3 {
     padding: 2.5rem 2.5rem;
   }
@@ -848,7 +851,7 @@ section {
     padding-bottom: 6rem;
   }
   .skills .skill i {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .contact-content-con {
     -webkit-box-orient: vertical;
@@ -884,7 +887,13 @@ section {
   }
 }
 @media (max-width: 480px) {
+  .sec2 {
+    padding: 2rem 4rem;
+  }
   .sec3 {
+    padding: 2rem 2rem;
+  }
+  .sec4 {
     padding: 2rem 2rem;
   }
   .projects {
@@ -928,5 +937,8 @@ section {
     margin: 0.6rem 0.6rem;
     width: 45px;
     height: 45px;
+  }
+  .skills .skill i {
+    font-size: 4rem;
   }
 }
