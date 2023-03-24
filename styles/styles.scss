@@ -8,7 +8,7 @@
 :root{
     --color-primary: #1d2d62;
     --color-secondary: #f66a6a;
-    // --color-secondary-1: #dd3a31;
+    --color-secondary-1: #dd3a31;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -230,7 +230,7 @@ section{
         .name{
             font-size: 3rem;
             span{
-                color: var(--color-secondary);
+                color: var(--color-secondary-1);
             }
         }
         p{
