@@ -127,9 +127,11 @@ section{
     justify-content: center;
     transform: translateY(-50%);
     .active-btn{
+        // look further into this important implementation
         background-color: var(--color-secondary) !important;
         transition: all 0.4s ease-in-out;
         i{
+        // look further into this important implementation
             color: var(--color-white) !important;
         }
     }
