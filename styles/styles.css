@@ -222,7 +222,7 @@ section {
   font-size: 3rem;
 }
 .header-content .right-header .name span {
-  color: var(--color-black);
+  color: var(--color-secondary-1);
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
