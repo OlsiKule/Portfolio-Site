@@ -245,7 +245,7 @@ section {
   text-transform: uppercase;
 }
 
-/*****************projects**********************/
+/*****************Projects**********************/
 .proj-text {
   padding: 2rem 0;
   text-align: center;
@@ -267,7 +267,7 @@ section {
 }
 .projects .project-item:hover .project-description {
   opacity: 1;
-  transform: scale(1);
+  transform: translateY(-50%);
 }
 .projects .project-item img {
   width: 100%;

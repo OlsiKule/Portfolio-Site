@@ -264,7 +264,7 @@ section{
     
 }
 
-/*****************projects**********************/
+/*****************Projects**********************/
 .proj-text{
     padding: 2rem 0;
     text-align: center;
@@ -283,9 +283,11 @@ section{
         box-shadow: 0 20px 80px 0 rgba(237, 224, 224, 0.45);
         margin-bottom: 2.5rem;
 
-        &:hover .project-description{
+        &:hover {
+            .project-description{
             opacity: 1;
-            transform: scale(1);
+                transform: translateY(-50%);
+            }
         }
 
         img{
