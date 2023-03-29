@@ -307,7 +307,7 @@ section{
             height: 100%;
             background: var(--color-grey-6);
             opacity: 0;
-            transition: all 450ms ease-in-out;
+            transition: all 900ms ease-in-out;
         }
 
         img{
@@ -315,7 +315,7 @@ section{
             height: 100%;
             object-fit: cover;
             border-radius: 15px;
-            transition: all 600ms ease-in-out;
+            transition: all 900ms ease-in-out;
             transform: scale(1.02);
         }
 
@@ -327,7 +327,7 @@ section{
             color: var(--color-white);
             max-width: 28.125rem;
             opacity: 0;
-            transition: opacity 300ms, transform 450ms ease-in-out;
+            transition: opacity 300ms, transform 900ms ease-in-out;
 
             .project-description-title{
                 font-size: 1.5rem;
@@ -355,7 +355,7 @@ section{
                     align-items: center;
                     margin: 0 2rem;
                     cursor: pointer;
-                    transition: all 0.9s ease-in-out;
+                    transition: all 0.900ms ease-in-out;
                     i{
                         font-size: 1.5rem;
                         color: var(--color-white);
@@ -371,10 +371,6 @@ section{
     }
 }
 
-// .project-item:hover .project-description{
-//     opacity: 1;
-//     transform: scale(1);
-// }
 
 /*****************Skills**********************/
 .skills{
