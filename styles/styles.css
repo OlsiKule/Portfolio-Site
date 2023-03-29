@@ -321,14 +321,14 @@ section {
   align-items: center;
 }
 .projects .project-item .project-description .icons .icon {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   border-radius: 50%;
   height: 50px;
   width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 2rem;
   cursor: pointer;
   transition: all 0.9s ease-in-out;
 }
@@ -341,7 +341,7 @@ section {
   background-color: var(--color-white);
 }
 .projects .project-item .project-description .icons .icon:hover i {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 /*****************Skills**********************/
