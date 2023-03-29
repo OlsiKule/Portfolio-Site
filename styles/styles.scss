@@ -337,17 +337,18 @@ section{
             // justify-content: center;
             // align-items: center;
             // flex-direction: column;
-            h3{
+            .project-description-title{
                 font-size: 1.5rem;
                 // color: var(--color-white);
                 margin-bottom: 1.5rem;
                 
             }
-            p{
+            .project-description-sub-tl{
+                margin-top: 8px;
+            }
+            .project-description-pgr{
                 font-size: 1.1rem;
                 margin-bottom: 1.5rem;
-                
-
             }
             .icons{
                 display: flex;

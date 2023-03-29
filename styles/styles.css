@@ -304,11 +304,14 @@ section {
   opacity: 0;
   transition: opacity 300ms, transform 450ms ease-in-out;
 }
-.projects .project-item .project-description h3 {
+.projects .project-item .project-description .project-description-title {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.projects .project-item .project-description p {
+.projects .project-item .project-description .project-description-sub-tl {
+  margin-top: 8px;
+}
+.projects .project-item .project-description .project-description-pgr {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
