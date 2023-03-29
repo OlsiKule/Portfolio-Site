@@ -64,7 +64,7 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 8rem 15rem;
+  padding: 5rem 12rem;
 }
 
 .section {
@@ -254,8 +254,8 @@ section {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem 5rem;
   margin-top: 3rem;
 }
 .projects .project-item {
@@ -368,7 +368,7 @@ section {
 /*****************Contact************************/
 .contact-content-con {
   display: flex;
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
