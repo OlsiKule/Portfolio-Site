@@ -297,10 +297,10 @@ section {
 .projects .project-item .project-description {
   position: absolute;
   top: 50%;
-  left: 90px;
+  margin: auto 3rem;
   transform: translate(100%);
   color: var(--color-white);
-  max-width: 550px;
+  max-width: 28.125rem;
   opacity: 0;
   transition: opacity 300ms, transform 450ms ease-in-out;
 }
@@ -309,10 +309,10 @@ section {
   margin-bottom: 1.5rem;
 }
 .projects .project-item .project-description .project-description-sub-tl {
-  margin-top: 8px;
+  margin: 0.5rem 0 0.625rem;
 }
 .projects .project-item .project-description .project-description-pgr {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 .projects .project-item .project-description .icons {
