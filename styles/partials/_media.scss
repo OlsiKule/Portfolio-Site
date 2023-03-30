@@ -311,13 +311,13 @@
             flex-direction: column;
         
             .project-description-title {
-                font-size: 1.5rem;
-                margin-bottom: 1.15rem;
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
              }
     
              .project-description-sub-tl {
-                font-size: 1rem;
-                margin: 0.5rem 0 1.525rem;
+                font-size: 0.825rem;
+                margin: 0rem 0 1.25rem;
                 // text-align: center;
               }
     
@@ -331,14 +331,15 @@
               align-items: center;
 
                 .icon {
-                height: 50px;
-                width: 50px;
+                height: 40px;
+                width: 40px;
+                margin: 0 1rem;
                 
                     i {
-                    font-size: 1.5rem;
-                    margin: 0 1rem;
+                        font-size: 1rem;
+                        margin: 0 1rem;
                     }
-                }
+               }
             }
         }
     }
