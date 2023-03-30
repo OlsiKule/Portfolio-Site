@@ -83,7 +83,7 @@
                 height: 45px;
             }       
         }
-    }
+    
 
     .sec5, .sec2{
         padding: 3rem 10rem;
@@ -277,7 +277,47 @@
       .projects{
         grid-template-columns: 1fr;
         margin: 3rem auto;
+       
+ 
+         .project-item .project-description {
+        
+            .project-description-title {
+               font-size: 1.15rem;
+               margin-bottom: 0.35rem;
+             }
+    
+             .project-description-sub-tl {
+                margin: 0.25rem 0 0.35rem;
+                font-size: 0.825rem;
+              }
+    
+              .project-description-pgr {
+                font-size: 0.825rem;
+                margin-bottom: 1rem;
+              }
+    
+              .icons .icon {
+                background-color: var(--color-primary);
+                border-radius: 50%;
+                height: 40px;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 1rem;
+                cursor: pointer;
+                transition: all 0.7s ease-in-out;
+                i {
+                    font-size: 1rem;
+                    margin: 0 1rem;
+                  }
+              
+            }
         }
+    }
+
+
+
     .main-title{
         padding-top: 1.5rem;
         h2{
