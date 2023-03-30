@@ -41,6 +41,7 @@
 
          .project-description-sub-tl {
             margin: 0.25rem 0 0.35rem;
+            font-size: 0.825rem;
           }
 
           .project-description-pgr {
@@ -100,9 +101,7 @@
     .sec4, .sec3{
         padding: 3rem 6.5rem;
     }
-    // .section{
-    //     padding: 7rem 6rem;
-    // }
+
 
     header{
         padding: 0;
@@ -153,8 +152,6 @@
     .projects{
         grid-template-columns: 1fr;
         margin: 3rem auto;
-        // padding-bottom: 2rem;
-        // margin: 1.5rem;
         }
 
     .skills .skill i{

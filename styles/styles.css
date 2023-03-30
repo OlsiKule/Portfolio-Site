@@ -564,6 +564,7 @@ section {
   }
   .projects .project-item .project-description .project-description-sub-tl {
     margin: 0.25rem 0 0.35rem;
+    font-size: 0.825rem;
   }
   .projects .project-item .project-description .project-description-pgr {
     font-size: 0.825rem;
