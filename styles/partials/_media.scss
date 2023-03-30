@@ -260,7 +260,26 @@
             font-size: 2.5rem;
         }
     }
-}
+ }
+
+    .controls{        
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        ul{
+            display: flex;
+            .control{
+                margin: 0.6rem 0.6rem;
+                width: 45px;
+                height: 45px;
+            }       
+        }
+    }
 }
 
 @media (max-width: 480px){
@@ -339,32 +358,32 @@
             }
         }
     }
-    .controls{        
-        top: auto;
-        bottom: 0;
-        flex-direction: row;
-        justify-content: center;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        background-color: var(--color-grey-5);
-        ul{
-            display: flex;
-            .control{
-                margin: 0.6rem 0.6rem;
-                width: 45px;
-                height: 45px;
-            }       
-        }
-    }
+
+    // .controls{        
+    //     top: auto;
+    //     bottom: 0;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     width: 100%;
+    //     background-color: var(--color-grey-5);
+    //     ul{
+    //         display: flex;
+    //         .control{
+    //             margin: 0.6rem 0.6rem;
+    //             width: 45px;
+    //             height: 45px;
+    //         }       
+    //     }
+    // }
     .skills{
         // grid-template-columns: 1fr;
         // padding-bottom: 6rem;
         .skill i{
             font-size: 4rem;
         }
-       }
-   
+    }
 }
 
 
