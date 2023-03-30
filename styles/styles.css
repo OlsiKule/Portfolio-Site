@@ -557,6 +557,35 @@ section {
     padding-right: 12rem;
   }
 }
+@media (max-width: 1199px) and (min-width: 941px) {
+  .projects .project-item .project-description .project-description-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+  }
+  .projects .project-item .project-description .project-description-sub-tl {
+    margin: 0.25rem 0 0.35rem;
+  }
+  .projects .project-item .project-description .project-description-pgr {
+    font-size: 0.825rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project-item .project-description .icons .icon {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+  }
+  .projects .project-item .project-description .icons .icon i {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+}
 @media (max-width: 940px) {
   body {
     font-size: 1rem;
